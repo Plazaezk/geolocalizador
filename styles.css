@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Color corregido */
+    display: flex; /* Añadido display flex para alinear items al centro */
+    align-items: center;
+    justify-content: center; /* Añadido para centrar horizontalmente */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Para ocupar toda la altura de la ventana */
+}
+
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
